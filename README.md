@@ -146,13 +146,6 @@ docker run -it \
            --name=svo_rawr \
            ros:svo
            
-docker run -it \
-           --net=host \
-           -e ROS_MASTER_URI=http://127.0.0.1:11311 \
-           -e ROS_IP=127.0.0.1 \
-           --name=svo_rawr \
-           ros:svo
-           
 # For subsequent runs, use docker exec after starting the container
 docker start svo_rawr
 docker exec -it svo_rawr bash
