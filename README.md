@@ -1,5 +1,5 @@
 # svo_ros Docker Template
-A Docker container for running the [Semi-Direct Visual Odometry 2.0 (SVO)](http://rpg.ifi.uzh.ch/svo2.html) visual odometry algorithm with ROS!
+A Docker container for easily running the [Semi-Direct Visual Odometry 2.0 (SVO)](http://rpg.ifi.uzh.ch/svo2.html) visual odometry algorithm by ETHz with ROS!
 
 
 
@@ -51,6 +51,7 @@ svo_ros_docker
 ### Build The Image!
 
 ```shell
+# Run this in the root of the repository (where the Dockerfile is)
 docker build -t ros:svo .
 ```
 
