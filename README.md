@@ -7,7 +7,7 @@ A Docker container for running the [Semi-Direct Visual Odometry 2.0 (SVO)](http:
 
 ![ohgodwhy](assets/ohgodwhy.png)
 
-As amazing as the [SVO ROS example package](https://github.com/uzh-rpg/rpg_svo_example) is, even detailing installation steps, it's hard to get it set up on some systems, especially since the supported systems are less widely used or straight up depreciated nowadays.
+As amazing as the [SVO ROS example package](https://github.com/uzh-rpg/rpg_svo_example) is, even detailing installation steps, it's hard to get it set up on some systems, especially since the supported systems are less widely used or straight up deprecated nowadays.
 
 So why not use Docker to help preserve the environments and allow SVO to run on all sorts of systems and environments with minimal overhead?
 
@@ -18,8 +18,8 @@ Cheers!
 ## Pre-Requisites
 
 - Docker :whale:
-  - You can find a [tutorial]([https://github.com/methylDragon/docker-reference/blob/master/01%20Docker%20Crash%20Course.md](https://github.com/methylDragon/docker-reference/blob/master/01 Docker Crash Course.md)) here
-  - And an [installation guide]([https://github.com/methylDragon/docker-reference/blob/master/01%20Docker%20Crash%20Course.md#2.2](https://github.com/methylDragon/docker-reference/blob/master/01 Docker Crash Course.md#2.2)) too!
+  - You can find a [tutorial](https://github.com/methylDragon/docker-reference/blob/master/01%20Docker%20Crash%20Course.md) here
+  - And an [installation guide](https://github.com/methylDragon/docker-reference/blob/master/01%20Docker%20Crash%20Course.md#2.2) too!
 - The SVO [Binaries](http://rpg.ifi.uzh.ch/svo2.html)
   - Specifically the one for x86_64 Ubuntu 16.04
   - (Named svo_binaries_1604_kinetic)
