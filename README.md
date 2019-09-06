@@ -40,7 +40,7 @@ svo_ros_docker
 ├── Dockerfile
 ├── README.md
 ├── svo_entrypoint.sh
-├── svo_binaries_1604_kinetic/
+└── svo_binaries_1604_kinetic/
    └── rpg_svo_example/
    └── svo_install_ws/
    └── ...
