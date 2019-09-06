@@ -67,7 +67,9 @@ We'll need to download the [demo bag file](http://rpg.ifi.uzh.ch/svo2/svo_test_s
 
 **On Host Computer**
 
-We didn't enable GUI in the Docker container because some machines (typically with NVIDIA GPUs) can't run GUIs without bloating the container! Thankfully we can run visualisations on our host machine instead.
+We didn't enable GUI in the Docker container because some machines (typically with NVIDIA GPUs) can't run the relevant GUIs without bloating the container! (This is mainly because RViz uses OpenGL, and it can get a bit tricky to set up properly. Also, because we didn't install RViz on the container to keep it lean.)
+
+Thankfully we can run visualisations on our host machine instead.
 
 ```shell
 # In one terminal, ensure your ROS_MASTER_URI is not on localhost,
